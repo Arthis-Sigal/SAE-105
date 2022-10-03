@@ -1,0 +1,100 @@
+body {
+    background-image: url(../image/FOOT/fond.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: sans-serif;
+
+}
+
+.prez td img {
+    height: 20px;
+    width: 20px;
+}
+
+p {
+    color: white;
+    font-weight: 700;
+}
+
+c {
+    color: white;
+    font-size: x-large;
+}
+
+th {
+    font-size: xx-large;
+}
+
+.prez {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.psg {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+h2 {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.fr {
+    width: 20px;
+    height: 13.25px;
+}
+
+x {
+    color: white;
+    font-size: large;
+}
+
+th {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+select {
+    font-size: xx-large;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+
+.joueur {
+    height: 420px;
+    width: 280px;
+}
+
+.pal {
+    font-size: xx-large;
+}
+
+select:hover {
+    box-shadow: 171px 0px 0px rgb(255, 0, 0) inset ;
+}
+
+.psg:hover {
+    transform: rotate(360deg);
+}
+
+.psg {
+    transition: all 1s ease;
+}

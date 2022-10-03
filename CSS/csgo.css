@@ -1,0 +1,131 @@
+body {
+    background-image: url(../image/CSGO/fondcsgo.jpg);
+    background-attachment: fixed;
+}
+
+.prez {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.p1 {
+    text-align: left;
+    margin-top: 80px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-right: 100px;
+    
+}
+
+.p2 {
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 80px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.valve {
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 200px;
+    height: 100px;
+}
+
+.csgo {
+    width: 400px;
+    height: 210px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.csgo:hover {
+    opacity: 50%;
+}
+
+.valve:hover {
+    opacity: 50%;
+}
+
+.cadre {
+    background-color: rgb(44, 44, 44);
+    border: solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+video {
+    margin-bottom: 50px;
+    width: 576px;
+    height: 324px;
+    border: solid black;
+}
+
+.vidplace {
+    display: flex;
+    justify-content: center;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: gray;
+}
+
+.att {
+    color:red;
+}
+
+div p {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+audio {
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+p a:hover {
+    color: red;
+}
+
+.ancre {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 50px;
+    background-image: url(../image/CSGO/flash.png);
+    background-size: 250%;
+    background-position: -90px -30px;
+    background-repeat: no-repeat;
+    height: 120%;
+    transition: all 0.1s ease;
+}
+
+.ancre a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+.ancre a:hover {
+    transform: rotate(10deg);
+    text-shadow: 1px 1px 1px red;
+}

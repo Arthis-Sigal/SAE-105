@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+body {
+    background-color: rgb(255, 112, 112);
+}
+#I1 {
+    margin-right: 80px ;
+    margin-left: 20px;
+}
+
+#I2 {
+    margin-left: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-left: 42.5%;
+    margin-top: 40px;
+    width: 15%;
+
+}
+
+button:hover {
+    box-shadow: 300px 0px 0px rgb(160, 160, 255) inset;
+
+}
+
+.tab {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+table {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+.nm {
+    color: black;
+    opacity: 0;
+}
+
+.m {
+    color: white;
+}

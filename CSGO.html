@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mes centres d'intérêt</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/csgo.css">
+        <link rel="stylesheet" href="../CSS/commun.css">
+
+        <script src="../tech/moteur.js"></script>
+        <script src="../tech/handlebars-v4.7.7.js"></script>
+        <script src="../tech/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <a href="index.html" class="noUnder" id="HDP">
+        <div class="titre">
+            <h1>Mes centres d'intérêt</h1>
+        </div>
+    </a>
+
+        <div class="cat">
+            <a href="java.html" style="--clr:#FF6055"><span>JAVASCRIPT</span><i></i></a>
+            <a href="CSGO.html" class="noUnder" style="--clr:#1e9bff"><span>CS:GO</span><i></i></a>
+            <a href="SC.html" style="--clr:#00FA5E"><span>STAR CITIZEN</span><i></i></a>
+            <a href="football.html" style="--clr:red"><span>FOOTBALL</span><i></i></a>
+        </div>
+        <div class="ancre">
+            <a href="#HDP">TOP</a>
+            <a href="#Part1">Partie 1</a>
+            <a href="#Part2">Partie 2</a>
+            <a href="#video">Video</a>
+            <a href="#footer">BOTTOM</a>
+
+        </div>
+        <script id="CSGO_template" type="text/x-handlebars-template">
+            {{#donnees}}
+                        <div class="cadre" id="prez">
+                            <div class="prez" id="Part2">
+                                <div>
+                                    <p class="main">{{music.label}}</p>
+                                    <audio controls loop src="audio/{{music.audio}}">{{music.nom}}</audio>               
+                                    <a href="url/{{img1.lien}}" target="_blank"><img src="img/{{img1.fichier}}" alt="{{img1.description}}" class="csgo"/></a>
+                                </div>
+                                <p class="p1">
+                                    {{{txt1}}}
+                                    <br/><br/> <t class="att">{{{txt2}}}</t>
+                                </p>
+                            </div>
+
+                            <div class="prez" id="Part1">
+                                <p class="p2">
+                                    {{{txt3}}}
+                                </p>
+                                <div class="img-link">
+                                    <a href="url/{{img2.lien}}" target="_blank"><img src="img/{{img2.fichier}}" class="valve" alt="{{img2.description}}"/></a>
+                                </div>
+
+                            </div>
+                            <div class="vidplace">
+                            <video controls>
+                                <source src="/image/CSGO/video.mp4" type="video/mp4">
+                            </video>
+                            </div>
+                            <p id="rank">{{{txt4}}}<br/><br/>
+                            <img src="img/{{img3.fichier}}" alt="{{img3.description}}" height="150px" width="300px"/><br/><br/>
+                            {{{txt5}}}
+                            </p>
+                        </div>
+                {{/donnees}}
+        </script>
+        <section id="contenu"></section>
+        
+
+        <footer id="footer">
+                    <p class="bold">
+                        Coordonées
+                    </p>
+                    <p>
+                        Sigal Arthis <br/>
+                        9 rue victor hugo <br/>
+                        Téléphone : +687 52.98.50<br/>
+                        E-mail : <a href="mailto:sigalarthis@gmail.com">sigalarthis@gmail.com</a>
+                    </p>
+                    <div class="rs">
+                        <a href="https://www.instagram.com/arthis_sigal/?hl=fr" target="_blank"><img src="../image/RS/insta.png" alt="instagram"/></a>
+                        <a href="https://www.facebook.com/arthis.sgl.1/" target="_blank"><img src="../image/RS/fb.png" alt="facebook"/></a>
+                        <a href="https://www.youtube.com/channel/UCyWh5HeySA6P-fe64OvkOSQ" target="_blank"><img src="../image/RS/ytb.png" alt="youtube"/></a>
+                        <a href="https://twitter.com/Link9754" target="_blank"><img src="../image/RS/twitter.png" alt="twitter"/></a>
+                    </div>
+        </footer>
+    </body>
+</html>

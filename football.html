@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mes centres d'intérêt</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/football.css">
+        <link rel="stylesheet" href="../CSS/commun.css">
+
+        <script src="../tech/moteur.js"></script>
+        <script src="../tech/handlebars-v4.7.7.js"></script>
+        <script src="../tech/jquery-3.6.0.min.js"></script>
+        <script  type="text/javascript">
+         function catsel(sel) {
+            //if (sel.value=="-1" ) return;
+            var opt=sel.getElementsByTagName("option" );
+            for (var i=0; i<opt.length; i++) {
+              var x=document.getElementById(opt[i].value);
+              if (x) x.style.display="none";
+            }
+            var cat = document.getElementById(sel.value);
+            if (cat) cat.style.display="block";
+            }
+        </script>
+    </head>
+    <body>
+        <a href="index.html" class="noUnder">
+        <div class="titre">
+            <h1>Mes centres d'intérêt</h1>
+        </div>
+    </a>
+
+        <div class="cat">
+            <a href="java.html" style="--clr:#FF6055"><span>JAVASCRIPT</span><i></i></a>
+            <a href="CSGO.html" class="noUnder" style="--clr:#1e9bff"><span>CS:GO</span><i></i></a>
+            <a href="SC.html" style="--clr:#00FA5E"><span>STAR CITIZEN</span><i></i></a>
+            <a href="football.html" style="--clr:red"><span>FOOTBALL</span><i></i></a>
+        </div>
+        <script id="foot_template" type="text/x-handlebars-template">
+            {{#donnees}}
+
+        <div class="prez">
+                        <img src="img/{{illustration1.fichier}}" alt="{{illustration1.descriptif}}" class="psg"/>
+
+                                        <p class="pal">PALMARES</p>
+                                    <table border="0">
+                                        <tr>
+                                            <th>
+                                                Compétitions nationales
+                                            </th>
+                                            <th>
+                                                Compétitions internationales
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/l1.png"/>
+                                                <c>
+                                                    Ligue 1 ({{L1T}})
+                                                </c>
+                                                <br/>
+                                                <p>
+                                                    {{DL1}}
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/cvdc.png"/>
+                                                <c>
+                                                    Coupe des vinqueurs de coupe ({{CVDC}})
+                                                </c>
+                                                <p>
+                                                    {{DCVDC}}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/cdf.png"/>
+                                                <c>
+                                                    Coupe de France ({{CDF}})
+                                                </c>
+                                                <br/>
+                                                <p>
+                                                    {{DCDF}}
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/citt.png"/>
+                                                <c>
+                                                    Coupe Intertoto ({{CII}})
+                                                </c>
+                                                <p>
+                                                    {{DCII}}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/tdc.png"/>
+                                                <c>
+                                                    Trophée des champions ({{TDC}})
+                                                </c>
+                                                <br/>
+                                                <p>
+                                                    {{DTDC}}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../image/FOOT/coupe/cdl.png"/>
+                                                <c>
+                                                    Coupe de la Ligue ({{CDL}})
+                                                </c>
+                                                <br/>
+                                                <p>
+                                                    {{DCDL}}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                    <div class="player">
+
+                                    
+                                        <select onchange="catsel(this)">
+                                            <option value="1">Mbappe</option>
+                                            <option value="2">Gueye</option>
+                                            <option value="3">Marquinhos</option>
+                                        </select>
+
+                                        <div id="1" style="display:block">
+                                            <table border="0">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur1.photo.fichier}}" alt="{{joueur1.photo.descriptif}}" class="joueur"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur1.flag.fichier}}" alt="{{joueur1.flag.descriptif}}" class="fr"/>
+                                                        <x>
+                                                            {{joueur1.poste}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE 1
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                        {{joueur1.stat.L1}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE DES CHAMPIONS
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                            {{joueur1.stat.LDC}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN COUPE DE FRANCE
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                        {{joueur1.stat.CDF}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                
+                                            </table>  
+                                        </div>
+                                        <div id="2" style="display:none">
+                                            <table border="0">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur2.photo.fichier}}" alt="{{joueur2.photo.descriptif}}" class="joueur"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur2.flag.fichier}}" alt="{{joueur2.flag.descriptif}}" class="fr"/>
+                                                        <x>
+                                                            {{joueur2.poste}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                    
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE 1
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                        {{joueur2.stat.L1}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE DES CHAMPIONS
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                            {{joueur2.stat.LDC}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN COUPE DE FRANCE
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                            {{joueur2.stat.CDF}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                
+                                            </table>  
+                                        </div>
+                                        <div id="3" style="display:none">
+                                            <table border="0">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur3.photo.fichier}}" alt="{{joueur3.photo.descriptif}}" class="joueur"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/{{joueur3.flag.fichier}}" alt="{{joueur3.flag.descriptif}}" class="fr"/>
+                                                        <x>
+                                                        N°5 | Défenseur central | Capitaine
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE 1
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                        {{joueur3.stat.L1}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN LIGUE DES CHAMPIONS
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                            {{joueur3.stat.LDC}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                    STAT EN COUPE DE FRANCE
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <x>
+                                                            {{joueur3.stat.CDF}}
+                                                        </x>
+                                                    </td>
+                                                </tr>
+                                
+                                            </table>  
+                                        </div>
+                                    
+                                    </div>
+                        {{/donnees}}
+                    </script>
+                    <div id="contenu"></div>
+
+                
+        <footer>
+                    <p class="bold">
+                        Coordonées
+                    </p>
+                    <p>
+                        Sigal Arthis <br/>
+                        9 rue Victor Hugo <br/>
+                        Téléphone : +687 52.98.50<br/>
+                        E-mail : <a href="mailto:sigalarthis@gmail.com">sigalarthis@gmail.com</a>
+                    </p>
+                    <div class="rs">
+                        <a href="https://www.instagram.com/arthis_sigal/?hl=fr" target="_blank"><img src="../image/RS/insta.png" alt="instagram"/></a>
+                        <a href="https://www.facebook.com/arthis.sgl.1/" target="_blank"><img src="../image/RS/fb.png" alt="facebook"/></a>
+                        <a href="https://www.youtube.com/channel/UCyWh5HeySA6P-fe64OvkOSQ" target="_blank"><img src="../image/RS/ytb.png" alt="youtube"/></a>
+                        <a href="https://twitter.com/Link9754" target="_blank"><img src="../image/RS/twitter.png" alt="twitter"/></a>
+                    </div>
+        </footer>
+    </body>
+
+</html>

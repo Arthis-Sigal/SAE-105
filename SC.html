@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mes centres d'intérêt</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/SC.css">
+        <link rel="stylesheet" href="../CSS/commun.css">
+
+        <script src="../tech/moteur.js"></script>
+        <script src="../tech/handlebars-v4.7.7.js"></script>
+        <script src="../tech/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <a href="index.html" class="noUnder">
+        <div class="titre">
+            <h1>Mes centres d'intérêt</h1>
+        </div>
+    </a>
+
+        <div class="cat">
+            <a href="java.html" style="--clr:#FF6055"><span>JAVASCRIPT</span><i></i></a>
+            <a href="CSGO.html" class="noUnder" style="--clr:#1e9bff"><span>CS:GO</span><i></i></a>
+            <a href="SC.html" style="--clr:#00FA5E"><span>STAR CITIZEN</span><i></i></a>
+            <a href="football.html" style="--clr:red"><span>FOOTBALL</span><i></i></a>
+        </div>
+
+        <script id="SC_template" type="text/x-handlebars-template">
+            {{#donnees}}
+
+        <div class="audio" id="prez">
+            <p>THEME PRINCIPALE</p>
+            <audio controls src="audio/{{audio}}">
+            </audio>
+        </div>
+            <div class="block1">
+            <img src="img/{{block1.ilustration}}" alt="{{block1.descriptif}}" class="hammeread"/>
+            <p class="txt">
+               {{{block1.txt}}}
+            </p>
+        </div>
+        <div class="image">
+            <img src="img/{{img1.ilustration}}" alt="{{img1.descriptif}}" class="ban"/>
+            <img src="img/{{img2.ilustration}}" alt="{{img2.descriptif}}" class="arrow"/>
+        </div>
+
+
+
+        <div class="CUTLASS" id="cutlass"> 
+            <h2>{{{ship.title}}}</h2>
+            <p>
+                 {{{ship.prez}}}
+                
+            </p>
+            <div class="visio">
+                <img src="img/{{ship.img1.fichier}}" alt="{{ship.img1.descriptif}}" class="drake"/>
+                <iframe title="THE CUTLASS BLACK" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="{{ship.visio}}" class="D3"></iframe>
+            </div>
+            <p>
+                {{{ship.txt1}}}
+            </p>
+            <div class="roctxt">
+                <img src="img/{{ship.img2.fichier}}" alt="{{ship.img2.descriptif}}" class="roc"/>
+                <p class="txt">
+                   {{{ship.txt2}}}
+                </p>
+            </div>
+        </div>
+        <h2 class="santontitre" od="santon">Le systéme Santon</h2>
+        <div class="santon">
+            <p class="santontxt1">
+               {{{systeme.txt1}}}
+            </p> 
+            <img src="img/{{systeme.img1.fichier}}" alt="{{systeme.img1.descriptif}}" class="santonimg"/>
+            <p class="santontxt2">
+               {{{systeme.txt2}}}
+                <img src="img/{{systeme.img2.fichier}}" alt="{{systeme.img2.descriptif}}" class="quantum"/>
+                
+            </p>
+
+        </div>
+        {{/donnees}}
+    </script>
+        <section id="contenu"></section>
+
+        <footer>
+                    <p class="bold">
+                        Coordonées
+                    </p>
+                    <p>
+                        Sigal Arthis <br/>
+                        9 rue Victor Hugo <br/>
+                        Téléphone : +687 52.98.50<br/>
+                        E-mail : <a href="mailto:sigalarthis@gmail.com">sigalarthis@gmail.com</a>
+                    </p>
+                    <div class="rs">
+                        <a href="https://www.instagram.com/arthis_sigal/?hl=fr" target="_blank"><img src="../image/RS/insta.png" alt="instagram"/></a>
+                        <a href="https://www.facebook.com/arthis.sgl.1/" target="_blank"><img src="../image/RS/fb.png" alt="facebook"/></a>
+                        <a href="https://www.youtube.com/channel/UCyWh5HeySA6P-fe64OvkOSQ" target="_blank"><img src="../image/RS/ytb.png" alt="youtube"/></a>
+                        <a href="https://twitter.com/Link9754" target="_blank"><img src="../image/RS/twitter.png" alt="twitter"/></a>
+                    </div>
+        </footer>
+    </body>
+</html>

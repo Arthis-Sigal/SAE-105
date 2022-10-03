@@ -1,0 +1,38 @@
+body {
+    background-image: url(../image/fond.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.prez {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+
+.p1 {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+
+.p2 {
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 80px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+
+.image {
+    margin-top: -50px;
+}
