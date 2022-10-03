@@ -1,0 +1,39 @@
+[
+  {
+      "music": {
+        "label": "THEME PRINCIPALE",
+        "audio": "../image/CSGO/main.mp3",
+        "nom": "MAIN THEME"
+      },
+
+      "img1": {
+        "lien": "https://blog.counter-strike.net/fr",
+        "fichier": "../image/CSGO/csgoOETB.png",
+        "description": "image csgo"
+      },
+
+      "txt1": "Counter-strike Global Offensive ou CS:GO est un fps compétitif      sortie en 2012 et développer par Valve. <br/><br/><br/>      Le mod le plus populaire est le mode compétitif : <br/><br/>      10 joueurs en 5V5 s'affronte sur une carte en 16 rounds gagnants (sur 30 possibles)      <br/> Il prenne à tour le rôle le côté Terroriste puis Anti-Terroriste. <br/><br/>      Le but des terroristes est de poser la bombe sur le site A ou B et      de la protéger pour qu'elle est le temps d'exploser. <br/><br/>      Les Anti-Terroriste doivent eu defendre les sites et désamormcé la bombe si jamais elle était plantée.",
+      "txt2": "/!\\ Un joueur MORT est MORT jusqu'à la fin de la manche /!\\",
+      "txt3": "Je joue à CS:GO depuis 2020, et j'ai +de 1000h à mon actif. <br/><br/>      Le jeu est mis à jour très régulièrement et à une des plus grosses      scène competitive en E-sport.<br/><br/>      La plus grosse team française est la Team <a href='https://vitality.gg' target='_blank'> Vitality </a>porté par leur capitaine APEX      <br/><br/> Il vont participer au prochain <a href='https://www.hltv.org/events/6372/pgl-major-antwerp-2022' target='_blank'>MAJOR </a> en Belgique du 9 mai 2022 au 22 mai 2022  ",
+  
+      "img2": {
+        "lien": "https://www.valvesoftware.com/fr/",
+        "fichier": "../image/CSGO/valve.jpg",
+        "description": "logo valve"
+      },
+
+      "video": "../image/CSGO/video",
+
+      "txt4": "CS:GO à un système de ranking intégré aux jeux ou appeler le 'MM'",
+      
+      "img3": {
+        "fichier" : "../image/CSGO/csgo rank.jpeg",
+        "description" : "les ranks sur csgo"
+      },
+
+      "txt5" : "La plupart des joueurs jouent grace à ce système de ranking. <br/>      Cependant certain joueur ayant 'fini' le matchmaking se tourne vers      des solutions s, tel que <a href='https://www.faceit.com' target='_blank'>FACEIT</a>." 
+      
+    }
+
+
+]

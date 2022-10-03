@@ -1,0 +1,89 @@
+[
+
+    {
+        "illustration1": {
+            "fichier": "../image/FOOT/psg.png",
+            "descriptif": "logo psg"
+        },
+
+        "L1T": "10",
+        "DL1": "1986, 1994, 2013, 2014, 2015, 2016, 2018, 2019, 2020 et 2022",
+
+        "CVDC": "1",
+        "DCVDC": "1996",
+
+        "CDF": "14",
+        "DCDF": "1982, 1983, 1993, 1995, 1998, 2004, 2006, 2010, 2015, 2016, 2017, 2018, 2020 et 2021᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼",
+
+        "CII": "1",
+        "DCII": "2001",
+
+        "TDC": "10",
+        "DTDC": "1995, 1998, 2013, 2014, 2015, 2016, 2017, 2018, 2019 et 2020",
+
+        "CDL": "9",
+        "DCDL": "1995, 1998, 2008, 2014, 2015, 2016, 2017, 2018 et 2020",
+
+        "joueur1": {
+            "photo": {
+                "fichier": "../image/FOOT/mbappe.jpg",
+                "descriptif": "Photo de Mbappe"
+            },
+
+            "flag": {
+                "fichier": "../image/FOOT/fr.png",
+                "descriptif": "drapeau français"
+            },
+
+            "poste": "N°7 | Attaquant",
+
+            "stat": {
+                "L1": "M:140 B:115 PD:42",
+                "LDC": "M:44 B:27 PD:/",
+                "CDF": "M:15 B:15 PD:1"
+            }
+        },
+
+        "joueur2": {
+            "photo": {
+                "fichier": "../image/FOOT/gueye.jpg",
+                "descriptif": "Photo de Gueye"
+            },
+
+            "flag": {
+                "fichier": "../image/FOOT/sen.png",
+                "descriptif": "drapeau sénégalé"
+            },
+
+            "poste": "N°27 | Milieux Défensif",
+
+            "stat": {
+                "L1": "M:73 B:6 PD:4",
+                "LDC": "M:24 B:1 PD:/",
+                "CDF": "M:5 B:0 PD:0"
+            }
+        },
+
+        "joueur3": {
+            "photo": {
+                "fichier": "../image/FOOT/marki.jpg",
+                "descriptif": "Photo de Marquinhos"
+            },
+
+            "flag": {
+                "fichier": "../image/FOOT/bre.png",
+                "descriptif": "drapeau bresilien"
+            },
+
+            "poste": "N°5 | Défenseur central | Capitaine",
+
+            "stat": {
+                "L1": "M:213 B:20 PD:5",
+                "LDC": "M:65 B:6 PD:/",
+                "CDF": "M:9 B:1 PD:/"
+            }
+        }
+        
+    }
+
+]

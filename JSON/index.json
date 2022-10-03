@@ -1,0 +1,19 @@
+[
+    {
+
+        "illustration1": {
+            "fichier": "/image/index/moi.jpg",
+            "descriptif": "arthis au ski"
+            },
+        "texte1": "Sigal Arthis, j'habite en Nouvelle calédonie. <br/><br/> Je suis étudiant à l'IUT de Nouvelle calédonie en BUT MMI 1er année<br/><br/>Je suis naît à Trappes (75) en 2002. <br/> <br/>Mais j'ai grandi pendant 10 ans à St Pierre et Miquelon, j'ai aussi<br/> vécu 2 ans à La Réunion avant d'arriver en Nouvelle Calédonie en 2015 dabort sur koné-pouembout avant de déscendre en 2021 sur nouméa pour les étude<br/>" 
+        
+    },
+    {
+        "illustration2": {
+            "fichier": "/image/index/sabre.png",
+            "descriptif": "sabre laser"
+            },
+        "texte2": "Je suis passionné de sport tel que le foot, rugby, <br/> de hockey sur glace, la voile ou le ski<br/><br/> Je suis aussi passionné de jeux de société tel que Schyte, TFM, Catan, Dune imperium et bien d'autres.<br/><br/>J'aime aussi les jeux vidéo, mes préférés sont Minecraft, CSGO, FIFA et Star Citizen<br/><br/> Je regarde aussi beaucoup le cinéma. Je suis fan des Marvel, Star Wars, Retour vers le futur,et bien d'autre classic."
+        
+    }
+]

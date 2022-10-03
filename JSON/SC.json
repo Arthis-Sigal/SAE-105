@@ -1,0 +1,63 @@
+[
+    {
+        "audio": "../image/SC/SC_MainTheme.mp3",
+
+        "block1": {
+            "ilustration": "../image/SC/img1.jpg",
+            "descriptif": "Hammered dans l'espace",
+            "txt":  "Star Citizen est un MMO, (massively multiplayer online)  actuellement toujours en Alpha 3.17 au moment où j'écris c'est ligne. <br/> Quand on est enjeux  on n'a pas de but, il n'y a pas d'histoire. C'est juste un univers persistant<br/><br/> C'est à nous de nous crée notre histoire. Devenir mineur en s'achetant un vaisseau de minage, devenir pirate, <br/>            devenir un marchand, un médecin ou encore un pompiste de l'espace.<br/><br/>            Le jeu à une communauté à travers le monde. Une communauté est présente en Nouvelle calédonie.<br/>            Il se retrouve tout sur le <a href='https://discord.gg/HZbGqsNk2n' target='_blank'>server discord </a> calédonien.            <br/><br/> Le jeu est financé en partie par un financement participatif où les            joueurs peuvent donner <br/> de l'argent au développeur qui en contrepartie leur donne des vaisseaux en fonction de l'argent donné.<br/>            C'est vaisseau là sont acquis à vie. On peut néanmoins acheter des vaisseau avec des aUEC (monaie du jeux). Mais en cas de wipe <br/> le vaisseau est suprimé<br/><br/>            Un wipe intervient lors de grosse MAJ car les dévloppeur on besoins d'installer de nouvelles fonctionalités <br/>qui demande de reset les compte de tout les joueur.<br/>            Une fois le jeux sortie il n'y aura plus de wipe et le magasin pour acheter ses vaisseau avec de l'argent réel fermera."
+        },
+
+        "img1": {
+            "ilustration": "../image/SC/img2.jpg",
+            "descriptif": "vaisseau qui survole une planète"
+        },
+
+        "img2": {
+            "ilustration": "../image/SC/arrow.png",
+            "descriptif": "arrow qui survole une planète"
+        },
+
+        "ship": {
+            "title": "LE CUTLASS BLACK",
+            "prez": "Le cutlass black est un vaisseau de la marque Drake Interplanetary",
+            
+            "img1": {
+                "fichier": "../image/SC/logo drake.png",
+                "descriptif": "logo marque drake"
+            },
+
+            "visio": "https://sketchfab.com/models/3d1ef463a89d4f6ba80abda783766bb3/embed",
+
+            "txt1": "Ce vaisseau est très polyvalent. Il a une bonne puissance de feu, il a une soute capable accueillir un ROC, un petit véicule de minage.",
+            
+            "img2": {
+                "fichier": "../image/SC/roc.jpg",
+                "descriptif": "ROC qui sort d'un cutlass"
+            },
+
+            "txt2": " Il peut allez partout, à une bonne réserve de carburant. Il est cependant            pas prévus pour les vol long. <br/>            En cause l'abscende de cuisine et de toilette.<br/><br/>            J'ai equipé mon cutlass de 2 cannon laser et 2 gatling balistique pour le pilote.<br/>            L'équipier dans la tourelle à accée à 2 cannon laser.<br/>            Le pilote à aussi accé à 16 missile.<br/>            Le vaisseau est prévus pour 2 membre d'équipage mais peut être agrandit à 3 avec un copilote.            <br/><br/>Ce vaisseau est très utilisé par les pirates, il est peut cher est un escadron peut facilement faire tomber de gros vaisseaux.            De plus ses portes latéral facilitent les sorties et entrés dans le vaisseau pour les abordage.            <br/><br/>             Le Cutlass black est l'une des variante de la série des cutlass.            Il exsite le Cutlass Red, qui est destiné à un usage médical, et transport de blésser, le Cutlass            Steel qui lui est destiné au déploiment de troupe au sol, il est équipé en plus de 1 tourelle balistique à chaque porte et le Cutlass Blue qui est destinée            à la police." 
+        },
+
+        "systeme" : {
+            "txt1":  "Le seul et unique système pour l'instant disponible dans le jeu est le système Santon.            L'univers est appelé à s'agrandir avec l'ajout du système Pyro durant l'année 2022.            Dans le lore de SC, chaque planéte appartien à une entreprise. Arcope appartien à Arcorp, Crusader à crusader, ect...            <br/><br/>- Hurston est la planéte minière, elle est ses lune abrite énormément de ressourse. La prison de l'UEE, (l'organisation gouvernementale) y est inplanter.            <br/><br/>- Crusader est un planète gazeuse, la seul ville de la planète est horizon qui flotte au dessus des nuage de gaz, elle rapelle un peu la cité des nuages dans Star Wars.            <br/><br/>- Microtech est de glace.            <br/><br/>- Arcop est la planète citée.",
+
+            "img1": {
+                "fichier": "../image/SC/santon.jpg",
+                "descriptif": "carte du systéme santon"
+            },
+
+            "txt2": "Pour voyager entre les planètes, on utilise la technologie du 'Quantum Drive'<br/>            C'est la vitesse lumière, ça n'est pas un temps de chargement cacher car si on veut on peut le faire en avançant normalement mais ça va être très long, en heure",
+            
+            "img2": {
+                "fichier": "../image/SC/quantum.jpg",
+                "descriptif": "vaisseau en quantum"
+            }
+        }
+    }
+
+
+
+
+
+]
